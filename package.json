@@ -1,0 +1,15 @@
+{
+  "name": "bybit-orderbook-alerts",
+  "version": "0.0.1",
+  "description": "telegram alerts for https://www.bybit.com/en/help-center/article/Spot-Project-Rules-and-Management-Guideline",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "silur",
+  "license": "MIT",
+  "dependencies": {
+    "ccxt": "^4.3.82",
+    "winston": "^3.14.1"
+  }
+}
